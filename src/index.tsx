@@ -36,15 +36,14 @@
         
 
           (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[`{ disabled: "$var_all.cond1", onHoverIn: "$var_all.func1", children: "$var_all.Comp1" ,
-style:{backgroundColor: 'green',
+            elementsProperties:[`{ disabled: "$var_all.cond1", onHoverIn: "$var_all.func1", children: "$var_all.Comp1" 
 }
-
-}`],
+`],
 
             styles:[`{
     width: 200,
     height: 200,
+backgroundColor: 'green',
  
   }`],
 
